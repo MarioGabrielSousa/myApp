@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  margin: 0 7vw;
+}
+
+.mother-div {
+  background-color: aquamarine;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  padding: 1vh;
+  border: 5px solid black;
+  background-color: yellow;
+  border-radius: 50px;
+  font-size: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(35, 170, 170);
+  text-shadow: 2px 2px #ff0000;
+}
+
+.title h2 {
+  margin: 5px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 2px 2px white;
+}
+
+.foto {
+  display: flex;
+}
+
+p {
+  font-size: 25px;
+}
+
+span {
+  background-color: pink;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-result p {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 1em;
+  padding: 25px;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 3vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.show-result input {
+  margin-top: 3vh;
+  width: 10vh;
+}
+
+.face-pic {
+  height: 38vh;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 12px;
+}
+
+.bttns {
+  margin: 20px auto;
+  padding: 25px;
+  border: 5px solid black;
+  background-color: #f1857c;
+  border-radius: 50px;
+  font-size: 6vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffeb3b;
+  text-shadow: 2px 2px #1897d0;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="mother-div">
+      <div class="title">
+        <br />
+        <h1>Olá internauta! 👋</h1>
+        <br />
+        <h2>Nesta app dou-me a conhecer à distância de um "click"! ☝️</h2>
+        <h2>Clica em cada categoria para saberes mais.</h2>
+      </div>
+      <div class="categories">
+        <button
+          class="bttns"
+          onclick="document.getElementById('bio-btn').style.display='block'"
+        >
+          Bio
+        </button>
+        <div class="show-result">
+          <p id="bio-btn" style="display: none">
+            🌲🐄🌈☀️
+            <br />
+            Chamo-me (Super) Mário. Nascido e criado na ilha de São Miguel. Este
+            ano completo 38 voltas em torno do sol.
+            <br />
+            <input
+              type="image"
+              src="xinsquare.png"
+              alt="close button"
+              onclick="document.getElementById('bio-btn').style.display='none'"
+            />
+          </p>
+        </div>
+        <button
+          class="bttns"
+          type="button"
+          onclick="document.getElementById('work-btn').style.display='block'"
+        >
+          Past experience
+        </button>
+        <div class="show-result">
+          <p id="work-btn" style="display: none">
+            🏋🎮🎨
+            <br />
+            Na última década trabalhei como instrutor de fitness e, antes disso,
+            jornalista de videojogos. Fui também director da
+            <em>Art Attack</em>, uma revista da Disney.
+            <br />
+            <input
+              type="image"
+              src="xinsquare.png"
+              alt="close button"
+              onclick="document.getElementById('work-btn').style.display='none'"
+            />
+          </p>
+        </div>
+
+        <button
+          class="bttns"
+          onclick="document.getElementById('hobbies-btn').style.display='block'"
+        >
+          Hobbies
+        </button>
+        <div class="show-result">
+          <p id="hobbies-btn" style="display: none">
+            🏋🎮🌲🛋️
+            <br />
+            Gosto de desporto (sobretudo ginásio), videojogos, fazer trilhos e
+            de estar bem quietinho à noite.
+            <br />
+            <input
+              type="image"
+              src="xinsquare.png"
+              alt="close button"
+              onclick="document.getElementById('hobbies-btn').style.display='none'"
+            />
+          </p>
+        </div>
+        <button
+          class="bttns"
+          onclick="document.getElementById('funfact-btn').style.display='block'"
+        >
+          Fun facts
+        </button>
+        <div class="show-result">
+          <p id="funfact-btn" style="display: none">
+            🥦🐟🐓❄️
+            <br />
+            Fui vegetariano 18 anos. Há três anos voltei a comer peixe e frango,
+            mas mantenho uns 70% da dieta vegetariana. Ah! E nunca vi neve na
+            vida!
+            <br />
+            <input
+              type="image"
+              src="xinsquare.png"
+              alt="close button"
+              onclick="document.getElementById('funfact-btn').style.display='none'"
+            />
+          </p>
+        </div>
+        <button
+          class="bttns"
+          onclick="document.getElementById('face-btn').style.display='block'"
+        >
+          Foto
+        </button>
+        <div class="show-result">
+          <img
+            id="face-btn"
+            class="face-pic"
+            src="fotopasse.png"
+            alt="a minha fronha"
+            style="display: none"
+            onclick="document.getElementById('face-btn').style.display='none'"
+          />
+          <!-- <input
+            type="image"
+            src="xinsquare.png"
+            alt="close button"
+            onclick="document.getElementById('face-btn').style.display='none'"
+          /> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
