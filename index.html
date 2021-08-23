@@ -15,6 +15,28 @@
       <div class="categories">
         <button
           class="bttns"
+          onclick="document.getElementById('face-btn').style.display='block'"
+        >
+          Foto
+        </button>
+        <div class="show-result">
+          <img
+            id="face-btn"
+            class="face-pic"
+            src="fotopasse.png"
+            alt="a minha fronha"
+            style="display: none"
+            onclick="document.getElementById('face-btn').style.display='none'"
+          />
+          <!-- <input
+            type="image"
+            src="xinsquare.png"
+            alt="close button"
+            onclick="document.getElementById('face-btn').style.display='none'"
+          /> -->
+        </div>
+        <button
+          class="bttns"
           onclick="document.getElementById('bio-btn').style.display='block'"
         >
           Bio
@@ -100,28 +122,6 @@
               onclick="document.getElementById('funfact-btn').style.display='none'"
             />
           </p>
-        </div>
-        <button
-          class="bttns"
-          onclick="document.getElementById('face-btn').style.display='block'"
-        >
-          Foto
-        </button>
-        <div class="show-result">
-          <img
-            id="face-btn"
-            class="face-pic"
-            src="fotopasse.png"
-            alt="a minha fronha"
-            style="display: none"
-            onclick="document.getElementById('face-btn').style.display='none'"
-          />
-          <!-- <input
-            type="image"
-            src="xinsquare.png"
-            alt="close button"
-            onclick="document.getElementById('face-btn').style.display='none'"
-          /> -->
         </div>
       </div>
     </div>

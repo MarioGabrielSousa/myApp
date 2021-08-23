@@ -77,6 +77,7 @@ span {
   height: 38vh;
   border: 5px solid rgb(0, 0, 0);
   border-radius: 12px;
+  margin-bottom: 1em;
 }
 
 .bttns {
